@@ -1,0 +1,15 @@
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\bin\Debug\net7.0\libreta-telefono.exe
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\bin\Debug\net7.0\libreta-telefono.deps.json
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\bin\Debug\net7.0\libreta-telefono.runtimeconfig.json
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\bin\Debug\net7.0\libreta-telefono.dll
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\bin\Debug\net7.0\libreta-telefono.pdb
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\obj\Debug\net7.0\libreta-telefono.csproj.AssemblyReference.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\obj\Debug\net7.0\libreta-telefono.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\obj\Debug\net7.0\libreta-telefono.AssemblyInfoInputs.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\obj\Debug\net7.0\libreta-telefono.AssemblyInfo.cs
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\obj\Debug\net7.0\libreta-telefono.csproj.CoreCompileInputs.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\obj\Debug\net7.0\libreta-telefono.dll
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\obj\Debug\net7.0\refint\libreta-telefono.dll
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\obj\Debug\net7.0\libreta-telefono.pdb
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\obj\Debug\net7.0\libreta-telefono.genruntimeconfig.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\libreta-telefono\obj\Debug\net7.0\ref\libreta-telefono.dll
