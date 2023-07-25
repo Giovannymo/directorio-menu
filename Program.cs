@@ -5,20 +5,27 @@ internal class Program{
 
   public static void Main(string[] args){
 
-    Dictionary<string, int> directorio = new Dictionary<string, int>();
+    List<Dictionary<string, int>> directory = new List<Dictionary<string, int>>();
     bool next = true;
 
     void AddContact(){
+      Dictionary<string, int> contact = new Dictionary<string, int>();
       Console.Write("Ingrese el nombre del contacto: ");
       string ? name = Console.ReadLine();
       Console.Write("Ingrese el número del contacto: ");
       int number = int.Parse(Console.ReadLine());
-      directorio.Add(name, number);
+      contact.Add(name, number);
+      directory.Add(contact);
     }
 
 
     void ShowContacts(){
-      
+      Console.WriteLine("NOMBRE:       #");
+      foreach(var contacts in directory){
+        foreach(var contact in contacts){
+          Console.WriteLine($"{contact.Key} {contact.Value}");
+        }
+      }
     }
 
 
@@ -41,9 +48,12 @@ internal class Program{
         case 1:
             AddContact();
         break;
+        case 2: 
+            ShowContacts();           
+        break;
         case 0: 
             next = false;
-          break;
+        break;
       }
 
 
