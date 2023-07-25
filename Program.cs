@@ -6,6 +6,8 @@ internal class Program{
   public static void Main(string[] args){
 
     List<Dictionary<string, int>> directory = new List<Dictionary<string, int>>();
+    List<Dictionary<string, int>> directoryImportant = new List<Dictionary<string, int>>();
+
     bool next = true;
 
     void AddContact(){
@@ -19,15 +21,28 @@ internal class Program{
     }
 
 
-    void ShowContacts(){
-      Console.WriteLine("NOMBRE:       #");
+    void ShowContacts(List<Dictionary<string, int>> directory){
+      Console.WriteLine("NOMBRE: ");
       foreach(var contacts in directory){
+        Console.Write((directory.IndexOf(contacts)+1)+". ");
         foreach(var contact in contacts){
-          Console.WriteLine($"{contact.Key} {contact.Value}");
+          Console.WriteLine($"{contact.Key}   # {contact.Value}");
         }
       }
     }
 
+
+    void ImportantSelect(){
+      Console.Write("Digite la posicion del nùmero a marcar: ");
+      int ? select = int.Parse(Console.ReadLine());
+
+      foreach(var contacts in directory){
+        if((directory.IndexOf(contacts)+1) == select){
+            directoryImportant.Add(contacts);
+        }
+      }
+
+    }
 
 
 
@@ -42,30 +57,34 @@ internal class Program{
                     "4.Eliminar número. \n \n"+
                     "0.Salir.\n");
 
-      int ? select = int.Parse(Console.ReadLine());
+      int ? select = i
+      
+      
+      
+      
+      
+     
+     
+     
+      nt.Parse(Console.ReadLine());
 
       switch(select){
         case 1:
-            AddContact();
+          AddContact();
         break;
         case 2: 
-            ShowContacts();           
+          ShowContacts();           
+        break;
+        case 3:
+          AddContact();          
         break;
         case 0: 
             next = false;
         break;
       }
-
-
       
     }while(next);
 
-
-
-
-
-
   }
-
 
 }
