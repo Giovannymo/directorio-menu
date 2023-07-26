@@ -54,29 +54,23 @@ internal class Program{
       Console.Write("1.Agregar nuevo número. \n"+
                     "2.Mostrar todos los números. \n"+
                     "3.Marcar un número como importante. \n"+
-                    "4.Eliminar número. \n \n"+
+                    "4.Mostrar nùmeros importantes. \n"+
                     "0.Salir.\n");
 
-      int ? select = i
-      
-      
-      
-      
-      
-     
-     
-     
-      nt.Parse(Console.ReadLine());
+      int ? select = int.Parse(Console.ReadLine());
 
       switch(select){
         case 1:
           AddContact();
         break;
         case 2: 
-          ShowContacts();           
+          ShowContacts(directory);           
         break;
         case 3:
-          AddContact();          
+          ImportantSelect();          
+        break;
+        case 4:
+          ShowContacts(directoryImportant);
         break;
         case 0: 
             next = false;
